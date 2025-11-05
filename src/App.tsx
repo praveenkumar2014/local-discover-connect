@@ -8,11 +8,15 @@ import Search from "./pages/Search";
 import BusinessDetail from "./pages/BusinessDetail";
 import Auth from "./pages/Auth";
 import NotFound from "./pages/NotFound";
+import Profile from "./pages/Profile";
+import Payment from "./pages/Payment";
 import { AdminLayout } from "./components/AdminLayout";
 import AdminDashboard from "./pages/admin/Dashboard";
 import AdminUsers from "./pages/admin/Users";
 import AdminBusinesses from "./pages/admin/Businesses";
 import AdminReviews from "./pages/admin/Reviews";
+import AdminInquiries from "./pages/admin/Inquiries";
+import AdminClaims from "./pages/admin/Claims";
 import AdminSettings from "./pages/admin/Settings";
 
 const queryClient = new QueryClient();
@@ -28,6 +32,8 @@ const App = () => (
           <Route path="/search" element={<Search />} />
           <Route path="/business/:id" element={<BusinessDetail />} />
           <Route path="/auth" element={<Auth />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/payment" element={<Payment />} />
           
           {/* Admin Routes */}
           <Route path="/admin" element={<AdminLayout />}>
@@ -35,6 +41,8 @@ const App = () => (
             <Route path="users" element={<AdminUsers />} />
             <Route path="businesses" element={<AdminBusinesses />} />
             <Route path="reviews" element={<AdminReviews />} />
+            <Route path="inquiries" element={<AdminInquiries />} />
+            <Route path="claims" element={<AdminClaims />} />
             <Route path="settings" element={<AdminSettings />} />
           </Route>
 
