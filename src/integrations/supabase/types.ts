@@ -215,6 +215,45 @@ export type Database = {
           },
         ]
       }
+      payment_orders: {
+        Row: {
+          amount: number
+          cashfree_order_id: string | null
+          created_at: string | null
+          id: string
+          order_id: string
+          payment_method: string | null
+          payment_session_id: string | null
+          status: string
+          updated_at: string | null
+          user_id: string
+        }
+        Insert: {
+          amount: number
+          cashfree_order_id?: string | null
+          created_at?: string | null
+          id?: string
+          order_id: string
+          payment_method?: string | null
+          payment_session_id?: string | null
+          status?: string
+          updated_at?: string | null
+          user_id: string
+        }
+        Update: {
+          amount?: number
+          cashfree_order_id?: string | null
+          created_at?: string | null
+          id?: string
+          order_id?: string
+          payment_method?: string | null
+          payment_session_id?: string | null
+          status?: string
+          updated_at?: string | null
+          user_id?: string
+        }
+        Relationships: []
+      }
       profiles: {
         Row: {
           avatar_url: string | null
