@@ -38,8 +38,7 @@ export const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
-            <img src={logo} alt="GSINFO" className="h-10 w-10" />
-            <span className="text-2xl font-bold text-primary">GSINFO</span>
+            <img src={logo} alt="Mannava INFO Business" className="h-12" />
           </Link>
           <nav className="flex items-center gap-4">
             <Link to="/search">

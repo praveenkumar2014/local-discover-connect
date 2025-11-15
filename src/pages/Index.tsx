@@ -25,14 +25,17 @@ const Index = () => {
       <section className="relative bg-gradient-to-br from-primary/5 via-background to-accent/5 border-b border-border">
         <div className="container mx-auto px-4 py-16 md:py-24">
           <div className="text-center max-w-4xl mx-auto mb-12">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              GSINFO
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+              Mannava INFO Business
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-4">
-              Discover trusted local businesses near you
+              Digital Marketing Lead Based solutions Provider
+            </p>
+            <p className="text-base text-muted-foreground mb-2">
+              USA, UK, CANADA and India
             </p>
             <p className="text-sm text-muted-foreground mb-8">
-              10,000+ verified listings across restaurants, services, healthcare & more
+              100% Authorised Business owners by authorised govt
             </p>
           </div>
 
@@ -140,7 +143,8 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-8 border-t border-border">
         <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
-          <p>© 2025 GSINFO. Your trusted local business directory.</p>
+          <p>© 2025 Mannava INFO Business. Digital Marketing Lead Based solutions Provider.</p>
+          <p className="mt-2">USA, UK, CANADA and India - 100% Authorised Business owners by authorised govt</p>
         </div>
       </footer>
     </div>
