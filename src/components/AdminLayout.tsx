@@ -1,6 +1,6 @@
 import { Link, Outlet, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/mannava-groups-logo.png";
 import {
   LayoutDashboard,
   Users,
@@ -74,7 +74,7 @@ export const AdminLayout = () => {
         <SheetContent side="left" className="w-64 p-0">
           <div className="flex h-full flex-col">
             <div className="flex h-16 items-center gap-2 border-b px-6">
-              <img src={logo} alt="GSINFO" className="h-8 w-8" />
+              <img src={logo} alt="Mannava Groups Admin" className="h-10" />
               <span className="text-xl font-bold">Admin Panel</span>
             </div>
             <div className="flex-1 overflow-auto py-4">
@@ -93,7 +93,7 @@ export const AdminLayout = () => {
       {/* Desktop sidebar */}
       <div className="hidden lg:flex lg:w-64 lg:flex-col lg:border-r">
         <div className="flex h-16 items-center gap-2 border-b px-6">
-          <img src={logo} alt="GSINFO" className="h-8 w-8" />
+          <img src={logo} alt="Mannava Groups Admin" className="h-10" />
           <span className="text-xl font-bold">Admin Panel</span>
         </div>
         <div className="flex-1 overflow-auto py-4">

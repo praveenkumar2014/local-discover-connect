@@ -10,7 +10,7 @@ import Auth from "./pages/Auth";
 import NotFound from "./pages/NotFound";
 import Profile from "./pages/Profile";
 import Payment from "./pages/Payment";
-import { AdminLayout } from "./components/AdminLayout";
+import { ProtectedAdmin } from "./pages/admin/ProtectedAdmin";
 import AdminDashboard from "./pages/admin/Dashboard";
 import AdminUsers from "./pages/admin/Users";
 import AdminBusinesses from "./pages/admin/Businesses";
@@ -36,7 +36,7 @@ const App = () => (
           <Route path="/payment" element={<Payment />} />
           
           {/* Admin Routes */}
-          <Route path="/admin" element={<AdminLayout />}>
+          <Route path="/admin" element={<ProtectedAdmin />}>
             <Route index element={<AdminDashboard />} />
             <Route path="users" element={<AdminUsers />} />
             <Route path="businesses" element={<AdminBusinesses />} />

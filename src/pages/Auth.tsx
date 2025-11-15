@@ -78,9 +78,9 @@ const Auth = () => {
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-primary cursor-pointer" onClick={() => navigate("/")}>
-            GSINFO
+            Mannava INFO Business
           </h1>
-          <p className="text-muted-foreground mt-2">Your Local Business Directory</p>
+          <p className="text-muted-foreground mt-2">Digital Marketing Lead Based Solutions Provider</p>
         </div>
 
         <Tabs defaultValue="signin" className="w-full">
