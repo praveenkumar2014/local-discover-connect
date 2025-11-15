@@ -5,3 +5,9 @@ verify_jwt = false
 
 [functions.generate-sample-data]
 verify_jwt = false
+
+[functions.create-cashfree-payment]
+verify_jwt = false
+
+[functions.create-upi-payment]
+verify_jwt = false
